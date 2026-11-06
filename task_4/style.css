@@ -1,0 +1,113 @@
+body {
+    background-image: url(https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?h=1000&w=1500&fit=crop);
+    /* background-color: rgb(38, 39, 64); */
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.logo {
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 50px;
+    height: 70vh;
+}
+
+
+.container_item_one {
+    text-align: left;
+}
+
+.container_item_one h3 {
+    font-size: 40px;
+    color: white;
+}
+
+.container_item_one .p1 {
+    font-size: 9px;
+    color: white;
+}
+
+.container_item_one .p2 {
+    font-size: 9px;
+    color: white;
+}
+.container_item_one .p3 {
+    font-size: 9px;
+    color: white;
+}
+.container_item_one .b{
+    background-color: orange
+    
+}
+.container_item_one .h3_1{
+
+}
+.container_item_one .h3_2{
+    color: orange;
+}
+.container_item_one .h3_3{
+}
+
+
+.container_item_two {
+    width: 100%;
+}
+form {
+    background-color: rgb(255, 102, 0);
+    border-radius: 10px;
+    padding: 10px;
+    /* align-items: center; */
+    justify-content: center;
+}
+form .lb{
+    background-color: orange;
+    text-decoration: color(rgb(255, 252, 252));
+}
+form .t :placeholder-shown{
+    text-decoration: aliceblue;
+}
+form .buttons{
+    background-color:orange ;
+}
+form .bb , a{
+    justify-content: center;
+}
+
+
+.ty {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+}
