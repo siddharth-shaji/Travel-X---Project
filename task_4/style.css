@@ -1,8 +1,13 @@
 body {
     background-image: url(https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?h=1000&w=1500&fit=crop);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
     /* background-color: rgb(38, 39, 64); */
     font-family: Arial, sans-serif;
     margin: 0;
+    
 }
 
 
@@ -70,38 +75,74 @@ nav a {
     background-color: orange
     
 }
-.container_item_one .h3_1{
 
-}
 .container_item_one .h3_2{
     color: orange;
 }
-.container_item_one .h3_3{
-}
+
 
 
 .container_item_two {
     width: 100%;
 }
 form {
-    background-color: rgb(255, 102, 0);
+    background-color: rgb(9, 9, 9);
     border-radius: 10px;
-    padding: 10px;
+    padding: 30px;
+    width: 200px;
+    margin:30px;
+    box-sizing: border-box;
     /* align-items: center; */
-    justify-content: center;
+    width: 300px;
+
+}
+form .t {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 15px;
+    color: white;
+    outline: none;
+    box-sizing: border-box;
 }
 form .lb{
     background-color: orange;
-    text-decoration: color(rgb(255, 252, 252));
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
 }
-form .t :placeholder-shown{
-    text-decoration: aliceblue;
+
+form .t::placeholder {
+    color: white;
 }
-form .buttons{
-    background-color:orange ;
+
+form .buttons {
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    width: 100px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
 }
-form .bb , a{
+form a {
+    text-decoration: none;
+    color: orangered;
+}
+form .bb {
+    display: flex;
     justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+form .bb a {
+    color: white;
+    font-size: 20px;
 }
 
 
