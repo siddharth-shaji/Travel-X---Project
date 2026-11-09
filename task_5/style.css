@@ -29,11 +29,26 @@ li a{
 .button_1{
     padding: 10px 20px;
     background-color: rgb(86, 226, 86);
-     font-size: 17px;
+    font-size: 17px;
     border-radius: 10px;
     color: white;
 }
 .container_item_1 p{
     font-size: 30px;
+}
+
+.container_2{
+    margin-top: 90px;
+        margin-left: 20px;
+    margin-right: 20px;
+}
+.c2_p{
+    margin-bottom: 40px;
+}
+.container_images_box{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+
 }
 
