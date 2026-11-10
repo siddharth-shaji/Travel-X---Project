@@ -1,5 +1,11 @@
 body {
-    background-color: rgb(20, 20, 20);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmR6KSm1WAJh5kmW1MyS10G_H_ZM6Xxy0MsTn2vatAYwrcCxOotwSKq0SO&s=10);
+    /* background-color: rgb(20, 20, 20); */
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center ;
+    /* background-attachment: fixed ; */
+
     font-family: Arial, sans-serif;
     margin: 0;
 }
@@ -22,7 +28,24 @@ ul {
     align-items: center;
     list-style: none;
     gap: 25px;
-    margin-right: 20px;
+    margin-right: 90px;
+}
+.bh:hover{
+    color:red;
+    
+}
+
+.bf{
+    background-color:black;
+    padding :10px 20px;
+    color:white;
+
+    border-radius:6px
+}
+.sb{
+    padding:10px 20px;
+    border-radius:6px;
+    text-decoration: black;
 }
 
 nav a {
