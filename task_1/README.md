@@ -1,0 +1,3 @@
+**The Odin Project – Web Development Learning Platform**
+
+A modern educational website designed to help beginners learn full-stack web development for free. It showcases a structured learning curriculum covering HTML, CSS, JavaScript, React, Node.js, databases, and more. The website highlights its learning process through three main steps: Learn, Build, and Connect. It also features student success stories, community support, donation options, and useful learning resources.
