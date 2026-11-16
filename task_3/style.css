@@ -1,6 +1,5 @@
 body {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmR6KSm1WAJh5kmW1MyS10G_H_ZM6Xxy0MsTn2vatAYwrcCxOotwSKq0SO&s=10);
-    /* background-color: rgb(20, 20, 20); */
     background-size: cover;
     background-repeat: no-repeat ;
     background-position: center ;
@@ -18,8 +17,16 @@ nav {
     margin-left: 20px;
 }
 
-.logo {
+.logo_n {
+    display: inline-block;
+}
+.logo1 {
     color: white;
+    display: inline-block;
+}
+.logo2 {
+    color: rgb(206, 19, 19);
+    display: inline-block;
 }
 
 ul {
@@ -40,12 +47,13 @@ ul {
     padding :10px 20px;
     color:white;
 
-    border-radius:6px
+    border-radius:7px
 }
 .sb{
     padding:10px 20px;
     border-radius:6px;
     text-decoration: black;
+    font-size: 19px;
 }
 
 nav a {
@@ -63,6 +71,11 @@ nav a {
     gap: 30px;
     margin: 50px;
     height: 70vh;
+    margin: bottom -1px;
+
+}
+.bh , .bf{
+    font-size: 20px;
 }
 
 
@@ -81,7 +94,7 @@ nav a {
 }
 
 .container_item_one .p2 {
-    font-size: 16px;
+    font-size: 22px;
     color: white;
 }
 

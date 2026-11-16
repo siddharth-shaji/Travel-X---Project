@@ -9,17 +9,25 @@ body {
     margin: 0;
     
 }
+b{
+    padding:10px 20px;
+}
 
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 200px;
 }
 
+
 .logo {
-    color: white;
+    color: rgb(255, 106, 0);
+    font-size: 39px;
+    margin:10px;
 }
 
 ul {
@@ -27,128 +35,146 @@ ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    gap: 25px;
-    margin-right: 20px;
+    gap: 60px;
+    margin-right: 100px;
 }
 
 nav a {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
     color: white;
+    font-weight: bold;
+    text-transform: uppercase;
 }
-
 
 .container {
-    display: grid;
+    display:grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
     align-items: center;
-    gap: 30px;
-    margin: 50px;
-    height: 70vh;
+    column-gap:40px;
+    padding:20px 25px;
+    margin-top: -40px;
 }
 
-
-.container_item_one {
-    text-align: left;
-}
-
-.container_item_one h3 {
-    font-size: 40px;
-    color: white;
-}
-
-.container_item_one .p1 {
-    font-size: 9px;
-    color: white;
-}
-
-.container_item_one .p2 {
-    font-size: 9px;
-    color: white;
-}
-.container_item_one .p3 {
-    font-size: 9px;
-    color: white;
-}
-.container_item_one .b{
-    background-color: orange
-    
-}
-
-.container_item_one .h3_2{
-    color: orange;
-}
-
-
-
-.container_item_two {
+.container_item_1 {
     width: 100%;
-}
-form {
-    background-color: rgb(9, 9, 9);
-    border-radius: 10px;
-    padding: 30px;
-    width: 200px;
-    margin:30px;
+    min-height: 300px;
+    padding-left:40px;
     box-sizing: border-box;
-    /* align-items: center; */
-    width: 300px;
-
 }
-form .t {
-    background: transparent;
-    border: none;
-    border-bottom: 2px solid gray;
-    width: 100%;
-    padding: 10px 0;
-    margin-bottom: 15px;
+.h3_3{
     color: white;
-    outline: none;
-    box-sizing: border-box;
+    font-size: 52px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
-form .lb{
-    background-color: orange;
-    text-align: center;
-    padding: 10px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    margin-bottom: 20px;
+.h3_2{
+    color: rgb(255, 77, 0);
+    font-size: 65px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
-
-form .t::placeholder {
+.h3_1{
+    color: rgb(255, 255, 255);
+    font-size: 52px;
+    margin-bottom: 0;
+}
+.p1, .p2, .p3 {
     color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 10px 0;
+    line-height: 1.3;
 }
-
-form .buttons {
-    background-color: orange;
+.fb {
+    background-color: rgb(255, 106, 0);
     color: black;
-    padding: 10px;
-    width: 100px;
-    margin-top: 10px;
     border: none;
-    border-radius: 8px;
-}
-form a {
-    text-decoration: none;
-    color: orangered;
-}
-form .bb {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+    padding: 13px 50px;
+    border-radius: 10px;
+    font-size: 17px;
     margin-top: 20px;
+    cursor: pointer;
+}
+.container_item_2 {
+    width: 330px;
+    min-height: 430px;
+    box-sizing: border-box;
+    margin-left: 350px;
+    background-color:black;
+    border-radius: 10px;
+    padding: 25px;
+    align-content: center;
+    margin-top: -90;
 }
 
-form .bb a {
-    color: white;
+
+.forms{
+    text-align: center;
+
+}
+.tb {
+    background-color: white;
+    color: goldenrod;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    width: 100%;
     font-size: 20px;
+    font-weight: bold;
+}
+.t {
+    background-color: black;
+    color: white;
+    padding: 12px 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(110, 70, 60);
+    font-size: 15px;
+    outline: none;
+}
+.t::placeholder{
+    color: white;
+}
+.bb {
+    background-color: rgb(255, 106, 0);
+    color: black;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
-
+.forms p {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.forms a{
+    text-align: center;
+    color: rgb(255, 106, 0);
+}
+.a , .b{
+    inset-block: initial;
+}
 .ty {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    margin-top: 25px;
+    gap: 25px;
 }
+
+.ty a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+
