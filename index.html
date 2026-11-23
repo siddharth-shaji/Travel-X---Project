@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,13 +7,15 @@
     <title>TravelX</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="font-sans text-gray-800 bg-white">
 
-    <header class="bg-white py-5 px-8 flex items-center justify-between sticky   ">
+    <header class="bg-white py-5 px-8 flex items-center justify-between sticky top-0">
+
         <a class="text-2xl font-bold text-blue-600" href="">TravelX</a>
 
         <nav>
-            <ul class="flex items-center gap-8  font-medium text-gray-700">
+            <ul class="flex items-center gap-8 font-medium text-gray-700">
                 <li><a href="">Home</a></li>
                 <li><a href="">Destinations</a></li>
                 <li><a href="">Packages</a></li>
@@ -20,38 +23,172 @@
                 <li><a href="">Contact</a></li>
             </ul>
         </nav>
-        <button>Book Now</button>
+
+        <button class="bg-blue-600 text-white px-5 py-2 rounded-lg">Book Now</button>
 
     </header>
 
     <div class="bg-blue-600 text-white py-16 px-8">
-        <div class="max-w-7xl  grid grid-cols-2 gap-12 items-center">
+
+        <div class="max-w-7xl mx-auto grid grid-cols-2 gap-12 items-center">
 
             <div>
-                <h1 class="text-4xl font-bold leading-tight">
-                    Explore the World With <br> Amazing Tours
-                </h1>
+                <h1 class="text-4xl font-bold leading-tight">Explore the World With <br> Amazing Tours</h1>
 
-                <p class="text-blue-100 text-base max-w-md leading-relaxed">
-                    Book unforgettable vacations at affordable prices.
-                    Travel comfortably with our experienced guides.
-                </p>
+                <p class="text-blue-100 text-base max-w-md leading-relaxed">Book unforgettable vacations at affordable prices. Travel comfortably with our experienced guides.</p>
+
                 <br>
 
                 <div class="flex items-center gap-6">
-                    <button class=" box-content bg-white text-blue-600 box-border-4 px-[9px] py-[5px] rounded-[5px] ">Explore</button>
+                    <button class="box-border bg-white text-blue-600 px-[9px] py-[5px] rounded-[5px]">Explore</button>
                     <button class="bg-transparent border border-white text-white px-[9px] py-[5px] rounded-[5px]">Learn More</button>
                 </div>
             </div>
 
             <div>
-                <img class="rounded-2.1 border border-blue-600 rounded-[10px]"
-                    src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800"
-                    alt="">
+                <img class="border border-blue-600 rounded-[10px]" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800" alt="">
             </div>
 
         </div>
     </div>
+
+    <div id="destinations" class="bg-slate-50 py-20 px-8">
+
+        <div class="max-w-6xl mx-auto">
+
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Popular Destinations</h2>
+
+            <div class="grid grid-cols-3 gap-8">
+
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+
+                    <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98?w=600" alt="Switzerland Mountains" class="w-full h-48 object-cover">
+
+                    <div class="p-6">
+                        <h2 class="text-xl font-bold text-gray-900 mb-2">Switzerland</h2>
+                        <p class="text-gray-500 text-sm leading-relaxed">Beautiful mountains and snowy adventures.</p>
+                    </div>
+
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/054/876/032/small/mirror-image-snow-capped-mountain-peaks-reflected-in-pristine-lake-free-photo.jpg" alt="Maldives Beach" class="w-full h-48 object-cover">
+
+                    <div class="p-6">
+                        <h2 class="text-xl font-bold text-gray-900">Maldives</h2>
+                        <p class="text-gray-500 leading-relaxed">Crystal clear beaches and luxury resorts.</p>
+                    </div>
+
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+
+                    <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98?w=600" alt="Paris" class="w-full h-48 object-cover">
+
+                    <div class="p-6">
+                        <h2 class="text-xl font-bold text-gray-900 mb-2">Paris</h2>
+                        <p class="text-gray-500 text-sm leading-relaxed">The city of love and beautiful architecture.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <section id="features" class="bg-white py-20 px-8">
+
+        <div class="max-w-6xl mx-auto text-center">
+
+            <h2 class="text-3xl font-bold text-gray-900 mb-16">Why Choose Us?</h2>
+
+            <div class="grid grid-cols-3 gap-12">
+
+                <div class="flex flex-col items-center">
+                    <div class="text-5xl mb-4">✈️</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Best Flights</h3>
+                    <p class="text-gray-500 text-sm">Affordable airline tickets with trusted partners.</p>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <div class="text-5xl mb-4">🏨</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Luxury Hotels</h3>
+                    <p class="text-gray-500 text-sm">Stay in premium hotels around the world.</p>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <div class="text-5xl mb-4">🌍</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Worldwide Tours</h3>
+                    <p class="text-gray-500 text-sm">More than 100 international travel packages.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-blue-600 text-white py-20 px-8 text-center">
+
+        <div class="max-w-3xl mx-auto space-y-6">
+
+            <h2 class="text-4xl font-bold">Ready for Your Next Adventure?</h2>
+
+            <p class="text-blue-100 text-lg">Book your dream vacation today and enjoy exclusive offers.</p>
+
+            <div class="pt-2">
+                <button class="bg-white text-blue-600 hover:bg-gray-100 font-semibold text-sm px-8 py-3.5 rounded-md shadow-sm transition">Book Your Trip</button>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-gray-300 pt-16 pb-8 px-8">
+
+        <div class="max-w-6xl mx-auto">
+
+            <div class="grid grid-cols-4 gap-10 pb-12">
+
+                <div class="space-y-4">
+                    <h3 class="text-2xl font-bold text-white">TravelX</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed max-w-xs">Explore the world with confidence and comfort.</p>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2.5 text-sm text-gray-400">
+                        <li><a href="" class="hover:text-white transition">About</a></li>
+                        <li><a href="" class="hover:text-white transition">Blog</a></li>
+                        <li><a href="" class="hover:text-white transition">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Support</h4>
+                    <ul class="space-y-2.5 text-sm text-gray-400">
+                        <li><a href="" class="hover:text-white transition">Help Center</a></li>
+                        <li><a href="" class="hover:text-white transition">FAQs</a></li>
+                        <li><a href="" class="hover:text-white transition">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2.5 text-sm text-gray-400">
+                        <li>Email: info@travelx.com</li>
+                        <li>Phone: +91 9876543210</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="border-t border-slate-800 pt-8 text-center text-sm text-gray-400">
+                © 2026 TravelX. All Rights Reserved.
+            </div>
+
+        </div>
+    </footer>
 
 </body>
 </html>
